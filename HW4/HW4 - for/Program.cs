@@ -11,17 +11,16 @@ namespace HW3
         static void Main(string[] args)
         {
             Console.Write("Введите целое положительное число ");
-            int n = Convert.ToInt32(Console.ReadLine());
-            Console.Write("{0} x {0} = ", n);
-            int i=1;
-            while ( i != 2*n+1) 
+            int n = Convert.ToInt32(Console.ReadLine());        
+            Console.Write("{0} x {0} = ", n);           
+            for (int i = 1; i < (2 * n + 1); )
             {
                 if (i != 1)
                 {
                     Console.Write("+ {0} ", i);
                 }
                 else
-                { 
+                {
                     Console.Write("{0} ", i);
                 }
                 i = i + 2;
