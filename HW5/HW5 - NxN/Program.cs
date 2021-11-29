@@ -23,10 +23,10 @@ class Program
         int[,] NxN = new int[N, N];
         for (int i=0; i < N; i++)
         {
-           for (int j = 0; j < N; i++)
+           for (int j = 0; j < N; j++)
             {
-                if ((i + j) % 2 == 0) Console.WriteLine("1"); // Для чётной суммы индекса строки и столбца поставить 1, для нечётной - 0
-                else Console.WriteLine("0");
+                if ((i + j) % 2 == 0) Console.Write("1"); // Для чётной суммы индекса строки и столбца поставить 1, для нечётной - 0
+                else Console.Write("0");
             }
             Console.WriteLine();
 
