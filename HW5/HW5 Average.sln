@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW5", "HW5\HW5.csproj", "{E540950B-3543-49C3-B650-4A7E710EB7FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW5 - Average", "HW5\HW5 - Average.csproj", "{E540950B-3543-49C3-B650-4A7E710EB7FE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW5 - NxN", "HW5 - NxN\HW5 - NxN.csproj", "{E9B110C4-419B-4D9E-BCB1-D288B16EDB67}"
 EndProject
